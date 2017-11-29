@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cruz.wanderlust_4itb.HotelOne"
+    android:background="@drawable/background">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        tools:layout_editor_absoluteY="1dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/h"
+        android:paddingBottom="100dp"
+        android:paddingTop="-40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView7"
+        android:layout_below="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="★★★★☆"
+        android:textSize="10pt"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_marginStart="188dp"
+        android:layout_alignStart="@+id/imageView7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Athena Rose's Hotel"
+        android:textSize="12pt"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="157dp"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Today, Hong Kong-based and Resorts is Asia Pacific's leading luxury hotel group. We are also regarded as one of the world’s finest hotel ownership and management companies.
+
+Owning and/or managing over 95 hotels and resorts throughout Asia Pacific, North America, the Middle East and Europe, The Athena group has a room inventory of over 40,000."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:onClick="backtohotels"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Rate: 3,000php/night
+Contact: athenashotel@gmail.com"
+        android:textSize="8pt"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="96dp" />
+
+</RelativeLayout>

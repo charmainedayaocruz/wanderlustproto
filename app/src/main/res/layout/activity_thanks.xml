@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cruz.wanderlust_4itb.Thanks"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        tools:layout_editor_absoluteY="1dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:text="All details was sent to your Email!"
+        android:layout_marginTop="47dp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for using Wanderlust,"
+        android:textSize="10pt"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy your Vacation!"
+        android:textSize="10pt"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate us: "
+        android:textSize="10pt"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView23" />
+
+    <Button
+        android:id="@+id/next7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to HOME"
+        android:onClick="backtohome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentBottom="true" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

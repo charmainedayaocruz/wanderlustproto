@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cruz.wanderlust_4itb.Destination"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Select Destination"
+     android:textSize="18pt"
+     android:layout_above="@+id/laguna"
+     android:layout_alignEnd="@+id/baguio"
+     android:layout_marginEnd="26dp"
+     android:layout_marginBottom="22dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        tools:layout_editor_absoluteY="44dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="930dp" />
+
+
+   <Button
+        android:id="@+id/baguio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginBottom="764dp"
+        android:layout_marginEnd="439dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="291dp"
+        android:text="Baguio"
+        android:textSize="12pt"
+        android:onClick="hotel_baguio"/>
+
+    <Button
+        android:id="@+id/laguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laguna"
+        android:textSize="12pt"
+        android:layout_alignTop="@+id/baguio"
+        android:layout_marginEnd="93dp"
+        android:layout_alignBottom="@+id/baguio"
+        android:layout_marginStart="350dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/baguio"
+        android:onClick="hotel_baguio"/>
+
+    <Button
+        android:id="@+id/boracay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/baguio"
+        android:layout_below="@+id/laguna"
+        android:layout_marginTop="70dp"
+        android:text="Boracay"
+        android:textSize="12pt"
+        android:layout_alignEnd="@+id/baguio"
+        android:layout_marginBottom="620dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="hotel_baguio"/>
+
+    <Button
+        android:id="@+id/pampanga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/laguna"
+        android:layout_alignTop="@+id/boracay"
+        android:text="Pampanga"
+        android:textSize="12pt"
+        android:layout_alignBottom="@+id/boracay"
+        android:layout_alignEnd="@+id/laguna"
+        android:layout_marginEnd="11dp"
+        android:onClick="hotel_baguio"/>
+</RelativeLayout>

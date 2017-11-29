@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cruz.wanderlust_4itb.ActivityOne"
+    android:background="@drawable/background">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        tools:layout_editor_absoluteY="1dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/horse"
+        android:paddingBottom="100dp"
+        android:paddingTop="-40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView7"
+        android:layout_below="@+id/imageView3" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Horse Backriding"
+        android:textSize="12pt"
+        android:layout_marginTop="173dp"
+        android:id="@+id/textView26"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_below="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maniego Ranch (+6390876546371)"
+        android:paddingStart="45dp"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:layout_alignTop="@+id/textView26"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Manalili St., Baguio City)"
+        android:paddingStart="45dp"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView29"
+        android:layout_alignTop="@+id/textView28" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kids: 180php/20mins"
+        android:paddingStart="45dp"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/imageView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Adults: 350/20mins"
+        android:paddingStart="45dp"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp"
+        android:layout_alignEnd="@+id/textView30"
+        android:layout_below="@+id/imageView7" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:onClick="backtoactivities"/>
+
+
+</RelativeLayout>
